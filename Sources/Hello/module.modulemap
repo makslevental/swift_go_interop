@@ -1,0 +1,5 @@
+module Hello [system] {
+  header "libhello.h"
+  link "hello"
+  export *
+}
