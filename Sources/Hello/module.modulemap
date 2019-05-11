@@ -1,5 +1,4 @@
-module Hello [system] {
-  header "libhello.h"
+module Hello {
+  umbrella header "libhello.h"
   link "hello"
-  export *
 }

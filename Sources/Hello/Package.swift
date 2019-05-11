@@ -3,11 +3,5 @@
 import PackageDescription
 
 let package = Package(
-        name: "Hello",
-        products: [
-            .library(name: "Hello", targets: ["Hello"]),
-        ],
-        targets: [
-            .systemLibrary(name: "Hello", path: "."),
-        ]
+        name: "Hello"
 )
